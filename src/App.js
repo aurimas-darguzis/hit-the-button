@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import fingerIcon from "./assets/finger.svg";
 import { jokes } from "./roasts.json";
 
 function App() {
