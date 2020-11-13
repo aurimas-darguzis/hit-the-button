@@ -16,7 +16,7 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <div>{joke}</div>
+        <div className='joke'>{joke}</div>
         <button onClick={getJoke}>
           <svg version='1.1' x='0px' y='0px' viewBox='0 0 512 640'>
             <g>
